@@ -4,12 +4,20 @@
  - 2. Instale o driver Connector/J MySQL para Java na dependência de bibliotecas 
 	  do projeto = Java Build Path -> Modulepath -> Add External's JAR;
  - 3. Crie uma fábrica de conexões = Pacote "br.com.crud.factory" com a classe
-	 "ConnectionFactory" embarcada.
+	 "ConnectionFactory" embarcada;
  - 4. Na classe "ConnectionFactory", instancie as variáveis de username e password
 	  informando os dados corretos, além da URL de conexão com o banco e classe com
-	  endereço do driver.
+	  endereço do driver;
  - 5. Instancie um método de conexão do banco com o driver e testes para validar a
- 	  funcionalidade da conexão.
+ 	  funcionalidade da conexão;
+ - 6. Crie uma classe modelo (exemplo: VacinaModelo) no pacote "br.com.crud.model"
+ 	  contendo os atributos do objeto;
+ - 7. Dentro do pacote "br.com.crud.dao", crie a classe DAO do modelo instanciado
+ 	  no passo anterior (exemplo: VacinaDAO), esta classe irá guardar as querys
+ 	  SQL feitas através da propriedade Statement; 
+ - 8. Escreva as requisições SQL, lembre-se de adaptar os parâmetros para cada query -
+ 	  priorize o CRUD (Create, Read, Update, Delete);
+ - 9. Ao final da classe DAO, crie uma função teste para validar seu funcionamento;
  
  
  

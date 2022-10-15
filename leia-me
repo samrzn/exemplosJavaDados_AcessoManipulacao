@@ -1,0 +1,17 @@
+ ORIENTAÇÕES - CRUD (Create, Read, Update, Delete):
+ 
+ - 1. Certifique-se de ter criado o banco de dados da aplicação no MySQL;
+ - 2. Instale o driver Connector/J MySQL para Java na dependência de bibliotecas 
+	  do projeto = Java Build Path -> Modulepath -> Add External's JAR;
+ - 3. Crie uma fábrica de conexões = Pacote "br.com.crud.factory" com a classe
+	 "ConnectionFactory" embarcada.
+ - 4. Na classe "ConnectionFactory", instancie as variáveis de username e password
+	  informando os dados corretos, além da URL de conexão com o banco e classe com
+	  endereço do driver.
+ - 5. Instancie um método de conexão do banco com o driver e testes para validar a
+ 	  funcionalidade da conexão.
+ 
+ 
+ 
+ Observação: método sem utilizar framework, código escrito em Java seguindo padrão
+DAO (Data Access Object).

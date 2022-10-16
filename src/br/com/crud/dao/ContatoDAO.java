@@ -134,7 +134,7 @@ public class ContatoDAO {
 
 	public static void main(String[] args) {
 		
-		// teste validade de funcionamento do DAO.
+		// teste validação de funcionamento do DAO.
 		ContatoDAO dao = new ContatoDAO();
 		for (ContatoModel c1 : dao.getContatoModel())
 			System.out.println(c1.getNome() + " -> " + c1.getIdade());

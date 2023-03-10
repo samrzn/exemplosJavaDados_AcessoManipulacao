@@ -7,7 +7,7 @@ import java.sql.Statement;
 
 public class ConnectionFactory {
 
-	// declaração "static final" define variável sem imutável.
+	// declaração "static final" define variável imutável.
 	private static final String USERNAME = "root";
 	private static final String PASSWORD = "m3lo0698Dram4*";
 

@@ -47,4 +47,4 @@ public class AppContatosCRUD {
 		} while (opcao != 0);
 		entrada.close();
 	}
-}
+} 

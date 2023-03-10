@@ -40,4 +40,4 @@ public class ContatoModel {
 	public void setDataCadastro(Date dataCadastro) {
 		this.dataCadastro = dataCadastro;
 	}
-}
+} 
